@@ -1,0 +1,164 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_RECURSION
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		d15c94cd NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-charac.ads		20190518041256 2d3ec45b ada.characters%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20190518041256 bb51c45a ada.numerics%s
+D a-nudira.ads		20190518041256 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20190518041256 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D main.adb		20200208144030 d53851b0 main%b
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-imguns.ads		20190518041256 9ff43cf7 system.img_uns%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-rannum.ads		20190518041256 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20190518041258 20ba1217 system.random_numbers%b
+D s-ransee.ads		20190518041258 01a57b33 system.random_seed%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-valuns.ads		20190518041258 35067db9 system.val_uns%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [main standard 18 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|15r6 15r19 15r40 15r70 16r5 16r18 16r39 52r32
+X 2 a-charac.ads
+16K13*Characters 18e19 16|15w74 16r43
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[12|46] 16|15w23 16r22
+X 6 a-numeri.ads
+16K13*Numerics 32e17 16|15r44 52r36
+X 7 a-nudira.ads
+44k22*Discrete_Random 75e33 16|15w53 52r45
+50R9 Generator<23|63R9> 16|54r15[52]
+52V13 Random{integer} 16|58s18[52]
+55U14 Reset<23|100p14> 16|56s7[52]
+X 8 a-nudira.adb
+53V16 Random[23|83]{integer} 24|392b13[16|52]
+X 11 a-textio.ads
+57K13*Text_IO 727e16 16|15w10 16r9
+264U14*New_Line 16|182s4 184s4 184s13 186s4 186s13 186s22 187s33 188s46 189s53
+. 190s48 191s28 192s4 193s52 193s61 198s13 201s7 201s16 201s25 202s52 203s57
+. 206s7 206s16 212s7 212s16 212s25 214s17 217s7 217s16 222s8 222s17 225s21
+. 225s30 226s55 228s8 228s17 233s68 235s20 235s29 237s71 238s19 243s72 248s71
+. 249s19 252s4 252s13
+381U14*Get 16|195s4 197s31
+465U14*Put 16|183s4 185s4 187s4 188s4 189s4 190s4 191s4 193s4 194s4 197s7
+. 200s7 202s7 203s7 205s7 207s7 211s7 213s7 216s7 216s53 218s7 221s8 229s9
+. 233s7 239s7 243s7 250s7 253s4
+508U14*Put_Line 16|224s8 226s8 234s7 237s7 244s7 248s7 255s19
+X 12 a-tiinio.ads
+59U14*Get 16|202s42[4|18] 203s47[4|18] 214s7[4|18]
+80U14*Put 16|68s10[4|18] 205s44[4|18] 216s43[4|18] 216s66[4|18]
+X 14 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 16 main.adb
+18U11*Main 18b11 256l5 256t9
+21i4 Taille{natural} 22r31
+22A9 T_TABLEAU(integer)<integer> 49r25 50r9 65r26 84r23 98r24 98r42 99r10
+. 109r33 125r34 135r8
+24i4 up{integer}
+25i4 ii{integer}
+26i4 ASCENDANT{natural}
+27i4 DESCENDANT{natural}
+31V13 Somme{integer} 31b13 31=19 31=40 36l8 36t13 204s12
+31i19 nb1{integer} 34r12
+31i40 nb2{integer} 34r18
+32i7 A{integer} 34m7 35r14
+38V13 Factorielle{integer} 38b13 38>25 43s20 45l8 45t19 215s15
+38i25 n{integer} 40r10 40r19 43r16 43r32
+49V13 init{22A9} 49b13 61l8 61t12 223s13 232s12 242s12
+50a7 T{22A9} 57r16 58m10 60r14
+51I15 Intervalle{integer} 52r61
+52K15 Aleatoire[7|44] 53r11
+54r7 Hasard{7|50R9[52]} 56r13 58r25
+57i11 i{integer} 58r12
+65U14 Afficher 65b14 65>23 70l8 70t16 225s8 227s8 235s7 238s7 249s7
+65a23 T{22A9} 67r16 68r14
+67i11 i{integer} 68r16
+74U14 Echanger 74b14 74=23 74=42 80l8 80t16 102s10 117s13 120s7
+74i23 a{integer} 77r12 78m7
+74i42 b{integer} 78r12 79m7
+75i7 c{integer} 77m7 79r12
+84V13 RangMin{integer} 84b13 84>21 84>34 84>51 95l8 95t15 102s27
+84a21 T{22A9} 86r25 89r13 90r21
+84i34 debut{integer} 85r25 86r27 88r16
+84i51 fin{integer} 88r23
+85i7 Rang{integer} 91m13 94r14
+86i7 Min{integer} 89r20 90m13
+88i11 i{integer} 89r15 90r23 91r21
+98V13 Trier{22A9} 98b13 98>19 105l8 105t13 227s17
+98a19 Tab{22A9} 99r23
+99a7 T{22A9} 101r16 102m19 102r19 102m25 102r25 102r35 102r39 104r14
+101i11 i{integer} 102r21 102r37
+109V13 Partition{integer} 109b13 109=23 109>44 109>59 122l8 122t17 129s15
+109a23 A{22A9} 112r12 115r13 117m22 117r22 117m28 117r28 120m16 120r16 120m26
+. 120r26
+109i44 p{integer} 113r12 114r16
+109i59 r{integer} 112r14 114r19 120r28
+110i7 x{integer} 112m7 115r21
+110i10 i{integer} 113m7 116m13 116r18 117r24 120r18 121r14
+114i11 j{integer} 115r15 117r30
+125U14 QuickSort 125b14 125=24 125>45 125>60 130s10 131s10 133l8 133t17 236s7
+125a24 A{22A9} 129m25 129r25 130m20 131m20
+125i45 p{integer} 128r10 129r28 130r22
+125i60 r{integer} 128r14 129r31 131r28
+126i7 q{integer} 129m10 130r24 131r22
+135a4 T{22A9} 223m8 225r17 227r23 232m7 235r16 236m17 236r17 238r16 242m7
+. 249r16
+136i4 r{integer}
+137i4 i{integer} 204m7 205r48 236r19
+138i4 j{integer} 236r21
+139e4 c{character} 195m8 196r10 196r21 197m35 199r7 199r18 210r7 210r18 220r7
+. 220r18 231r7 231r18 241r7 241r18
+140i4 val1{integer} 202m46 204m18 204r18 214m11 215r27 216r47
+140i10 val2{integer} 203m51 204m24 204r24 215m7 216r70
+X 23 s-rannum.ads
+75V13*Random{14|74M9} 24|221i21
+76V13*Random{14|77M9} 24|221i21
+

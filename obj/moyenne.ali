@@ -1,0 +1,78 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U moyenne%b		moyenne.adb		f1c16e24 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-flteio.ads		20190518041256 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiflio.ads		20190518041256 bf196650 ada.text_io.float_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D moyenne.adb		20191208084240 b1caf519 moyenne%b
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D text_io.ads		20190518041256 21b2c898 text_io%s
+G a e
+G c Z b b [moyenne standard 22 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|15w6 15r34 17r6 17r34 18r6 18r34
+X 3 a-flteio.ads
+20K13*Float_Text_IO[9|46] 14|18w10 18r38
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|46] 14|17w10 17r38
+X 8 a-textio.ads
+264U14*New_Line 14|28s4 30s4 30s13 33s4 36s4 39s4 42s4 50s4 50s13
+465U14*Put 14|29s4 31s4 34s4 37s4 40s4 48s4 51s4
+508U14*Put_Line 14|53s19
+X 9 a-tiflio.ads
+60U14*Get 14|32s4[3|20] 38s4[3|20]
+82U14*Put 14|49s4[3|20]
+X 10 a-tiinio.ads
+59U14*Get 14|35s4[4|18] 41s4[4|18]
+X 14 moyenne.adb
+22U11*Moyenne 22b11 54l5 54t12
+24i4 Coef_Maths{integer} 35m8 44r40 45r34
+24i17 Coef_Info{integer} 41m8 44r21 45r66
+25f4 Coef{float} 44m4 46r21
+25f12 Note_Maths{float} 32m8 45r15
+25f24 Note_Info{float} 38m8 45r48
+25f35 Notes{float} 45m4 46r15
+25f42 Moyenne{float} 46m4 49r8
+X 28 text_io.ads
+24K9*Text_IO=24:29 14|16w6 16r34
+

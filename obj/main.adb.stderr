@@ -1,0 +1,2 @@
+main.adb:24:04: warning: variable "up" is never read and never assigned
+main.adb:25:04: warning: variable "ii" is never read and never assigned
